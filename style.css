@@ -1,9 +1,12 @@
-* {
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
+* {
+    font-family: "Roboto", serif;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
 
 h1, h2, h3, h4, h5, h6, span {
     color: #242424;
@@ -164,10 +167,10 @@ margin-bottom: 16px;
     padding: 0 16px;
 }
 
-.about-me__link:hover {
+.fa-linkedin-in:hover {
     filter: brightness(80%);
     opacity: 0.5;
-    transform: scale(2);
+    transform: scale(1.5);
 }
 
 .about-me__info--container {
