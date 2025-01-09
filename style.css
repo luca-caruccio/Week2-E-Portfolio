@@ -175,6 +175,33 @@ margin-bottom: 16px;
     opacity: 0.5;
     transform: scale(1.5);
 }
+.fa-envelope {
+    transition: all 400ms ease;
+}
+
+.fa-envelope:hover {
+    filter: brightness(80%);
+    opacity: 0.5;
+    transform: scale(1.5);
+}
+.fa-file {
+    transition: all 400ms ease;
+}
+
+.fa-file:hover {
+    filter: brightness(80%);
+    opacity: 0.5;
+    transform: scale(1.5);
+}
+.fa-github {
+    transition: all 400ms ease;
+}
+
+.fa-github:hover {
+    filter: brightness(80%);
+    opacity: 0.5;
+    transform: scale(1.5);
+}
 
 .about-me__info--container {
     flex: 1;
